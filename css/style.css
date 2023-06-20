@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {color: #00668E;text-decoration: none;}
+
+body {height: 1024px;}
+
+/* Body */
+
+header {
+    display: flex;
+    height: 90px;
+    background-color: #EEEEEE;
+}
+
+header .logo {
+    float: left;
+    width: 232px;
+    height: 70px;
+    margin: 10px 100px;
+}
+
+header form {
+    display: flex;
+    margin: 25px 0;
+}
+ 
+header .search {
+    float: left;
+    border-radius: 25px 0px 0px 25px;
+    height: 40px;
+    width: 600px;
+    padding-left: 15px;
+}
+
+header .search-button {
+    background-color: white;
+    float: right;
+    border-radius: 0px 25px 25px 0px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Header */
+
+main {
+    height: 934px;
+    background-image: url(https://www.kmg.kz/upload/iblock/2c1/oqh50pazosb2zmango274ijgoahh99wn/reports.png);
+    background-size: cover;
+}
+
+/* Main */
+
+details {position: absolute;}
+
+.kmg {
+    width: 336px;
+    height: 65px;
+    padding: 10px;
+    background-color: #00668E;
+    color: white;
+}
+
+.text-kmg {
+    padding-left: 80px;
+    font-weight: 600;
+}
+
+.link-kmg {
+    font-size: 12px;
+    width: 336px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color:rgb(255, 255, 255)
+}
+
+/* Окно для перехода */
+
+.title-kmg {
+    padding-top: 75px;
+    color: #00668E;
+    font-size: 40px;
+}
+
+.btns div button {
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #E5F1FF;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.btns div button a {
+    color: #00668E;
+    font-weight: 600;
+}
+
+/* Основная страница */
+
+.table {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #F1F8FF;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+}
+
+.table tr th {color: #00668E; font-weight: 600;}
+
+.table tr th, td {padding: 15px 25px;}
+
+.table tr td {font-size: 13px;}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 450px;
+}
+
+/* Таблица */
+
+footer {
+    display: flex;
+    height: 90px;
+    background-color: #00668E;
+}
+
+footer p {
+    color: #EEEEEE;
+    margin: 35px;
+}
